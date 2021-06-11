@@ -1,0 +1,27 @@
+.btn {
+  display: block;
+  text-transform: uppercase;
+  line-height: 5.5rem;
+  width: 25rem;
+  height: 7rem;
+  border: none;
+  background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8),
+    10px 10px 20px rgba(166, 180, 200, 0.7);
+  border-radius: 1rem;
+  cursor: pointer;
+
+  margin: 6rem 0 4rem 0;
+}
+
+.cta-main {
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffffff;
+  background-color: #04bfbf;
+  border: 1px solid #04bfbf;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  margin: auto 0.1rem;
+}

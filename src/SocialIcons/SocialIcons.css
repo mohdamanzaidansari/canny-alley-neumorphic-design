@@ -1,0 +1,34 @@
+.social-icons {
+  list-style: none;
+  width: 4rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+  margin-left: auto;
+  margin-top: -40rem;
+  cursor: pointer;
+  position: absolute;
+}
+
+.social-icons > li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.6),
+    5px 5px 10px rgba(166, 180, 200, 0.7);
+  border-radius: 5px;
+}
+
+.social-icons > li > img {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  filter: invert(62%) sepia(49%) saturate(4903%) hue-rotate(142deg)
+    brightness(100%) contrast(97%);
+}

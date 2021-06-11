@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-svg {
+  height: 3rem;
+  width: 3rem;
+  padding: 1rem;
+  background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.6),
+    10px 10px 20px rgba(166, 180, 200, 0.7);
+  border-radius: 25px;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon::after {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 45rem;
+  background-color: rgb(19, 19, 19);
+  padding: 0;
+  margin-left: 5rem;
+}
+
+.logo-img {
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  margin: 0 1.5rem;
+  color: #04bfbf;
+}

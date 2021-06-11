@@ -1,0 +1,102 @@
+.hero-left--inner-box {
+  position: relative;
+}
+
+.hero-services {
+  align-self: flex-end;
+  width: 65rem;
+  height: 6rem;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+
+  transform-origin: top left;
+  transform: translateY(100%) rotate(-90deg);
+
+  list-style-type: none;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 0;
+  margin: 0;
+}
+
+.active-service {
+  border-bottom: 3px solid #04bfbf;
+  padding-bottom: 5px;
+}
+
+.hero-services > li {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.hero-carousel {
+  margin-left: 10rem;
+  margin-top: 7rem;
+}
+
+.hero-carousel-border {
+  width: fit-content;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8),
+    10px 10px 24px rgba(166, 180, 200, 0.7);
+  border-radius: 2rem;
+}
+
+.hero-carousel--img {
+  height: 60rem;
+  width: 60rem;
+  border-radius: 2rem;
+}
+
+.hero-carousel--controls {
+  margin-left: 0rem;
+  padding: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-carousel-arrow--left {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 4rem;
+  transform: scaleX(-1);
+  cursor: pointer;
+}
+
+.hero-carousel--link {
+  height: 6rem;
+  width: 25rem;
+  text-align: center;
+  line-height: 6rem;
+  box-shadow: 0px 10px 10px rgba(4, 191, 191, 0.2);
+  border-radius: 5px;
+
+  background: linear-gradient(134.17deg, #eef1f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.75),
+    inset 5px 5px 10px rgba(166, 180, 200, 0.75);
+  border-radius: 5px;
+}
+
+.hero-carousel--link > a {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #04bfbf;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #04bfbf;
+}
+.hero-carousel-arrow {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 4rem;
+  cursor: pointer;
+}
